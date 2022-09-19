@@ -12,7 +12,7 @@ const router = express.Router()
 
 router
   .get('/comment/list', list)
-  .get('/comment/:id', detail)
+  .get('/comment/:iduser', detail)
   .post('/comment', insert)
   .put('/comment/:iduser', update)
   .delete('/comment/:iduser', destroy)
